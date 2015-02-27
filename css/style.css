@@ -10,10 +10,6 @@ body {
         margin: 0 auto;
     }
 
-    .main {
-        background: #F5EEDB;
-        padding: 15px;
-    }
 
     .sidebar {
         width: 225px;
@@ -87,4 +83,10 @@ body {
     .portfolio-list {
          list-style-type: none;   
     }
+    .personalPhoto {
+         border-style: solid;
+         border-width: 5px;
+    }
+    ul.portfolio-list li a: hover{
+        background: #454545;
     }
